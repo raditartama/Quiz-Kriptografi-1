@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kriptografi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Enkripsi Kriptografi</h1>
+    <h4>Oleh : Raditya Diyandra Rido Artama</h4>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="file">Upload file (.txt):</label>
+        <input type="file" name="file" id="file"><br><br>
+
+        <label for="plaintext">Input plaintext:</label>
+        <textarea name="plaintext" id="plaintext" rows="4" cols="50"></textarea><br><br>
+
+        <label for="key">Input kunci (min. 12 karakter):</label>
+        <input type="text" name="key" id="key"><br><br>
+
+        <label for="method">Pilih metode enkripsi:</label>
+        <select name="method" id="method">
+            <option value="vigenere">Vigenere Cipher</option>
+            <option value="playfair">Playfair Cipher</option>
+            <option value="hill">Hill Cipher</option>
+        </select><br><br>
+
+        <input type="submit" value="Encrypt">
+    </form>
+</body>
+</html>
