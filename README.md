@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyek Kriptografi
 
 Proyek ini adalah aplikasi berbasis web yang mengimplementasikan tiga algoritma kriptografi: Vigenere Cipher, Playfair Cipher, dan Hill Cipher. Aplikasi ini dibuat menggunakan Flask dan Python.
@@ -66,3 +67,6 @@ Sebelum memulai, pastikan Anda telah menginstall pada device masing-masing, yakn
 
 4. Klik 'Encrypt'
     Klik tombol untuk melakukan enkripsi dan melihat hasilnya.
+=======
+# Quiz-Kriptografi-1
+>>>>>>> d0227e88caa7c21927ea2f79cad013065fa867c5
